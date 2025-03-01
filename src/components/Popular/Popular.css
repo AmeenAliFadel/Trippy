@@ -1,6 +1,5 @@
 .Popular{
     width: 100%;
-
     padding: 4rem 6rem;
 }
 .Popular .Title{
@@ -9,4 +8,9 @@
 }
 .Popular .Description{
     text-align: center;
+}
+@media  (max-width:900px){
+    .Popular{
+        padding: 2rem 2rem;
+    }
 }

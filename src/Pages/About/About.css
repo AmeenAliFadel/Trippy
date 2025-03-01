@@ -1,0 +1,61 @@
+.Active {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+}
+
+.desActive {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .4s;
+}
+
+.popUp {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 10px 0px 0px rgb(93, 93, 93);
+    background-color: #ffffffc0;
+    border-radius: 20px;
+
+}
+
+.popUp h3 {
+    font-size: 24px;
+    color: green;
+}
+
+.popUp div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popUp div button,
+.Btn {
+    margin: 20px 50px;
+    padding: 8px 12px;
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+.popUp div button:nth-child(1) {
+    color: red;
+    border: 1px solid red;
+}
+
+.popUp div button:nth-child(2) {
+    color: blue;
+    border: 1px solid blue;
+}

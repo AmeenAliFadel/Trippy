@@ -22,3 +22,9 @@
     font-size: 1.3rem;
     padding: .9rem 0 .2rem;
 }
+@media  (max-width:900px){
+    .RecentCard{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
